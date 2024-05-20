@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homebutt{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+nav a:hover{
+    border-radius: 20px;
+    background: #425d72;
+    transition: .5s;
+}
+.div-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.div-1 h1{
+    padding: 10px;  
+    border-radius: 50px;
+    background-color: rgb(33, 37, 41);
+    width: fit-content;
+    color: aliceblue;
+}
+
+.div-1 img{
+    /* float: right; */
+    width: 500px;
+}
+.div-1 p {
+    font-size: xx-large;
+    border-color: rgb(33, 37, 41);
+    border-radius: 5px;
+   
+}
+.container-1{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-1 img{
+    border-radius: 20px;
+    /* width: 600px; */
+    margin: 20px;
+    height: 500px;
+    padding-top: 30px;
+    
+}
+.container-1 div{
+    float: right;
+    width: 50%;
+    line-height: 50px;
+    font-size: larger;
+    
+}
+
+#About{
+}
+
+#About p{
+    
+    font-size: large;
+}
+th {
+    padding-right: 30px;
+}
+
+/* ------------------------------------------------ */
+.container-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    
+    
+}
+.cards{
+    height: 500px;
+    width: 320px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+    
+}
+.container-2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.info{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right:  -100% ;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 20px;
+    bottom: 240px;
+    background-color: rgb(27, 27, 27, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+.container-2 h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+}
+.container-2 p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 2;
+}
+.cards:hover .info{
+    right: 0;
+
+}
+/* --------------------------------------------------- */
+#skills{
+    height: 100vh;
+}
+.container-3{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-3 .div2{
+    display: flex;
+    JUSTIFY-CONTENT: space-between;
+    width: 250px;
+    padding-top: 50px;
+}
+    .container-3 .divhtml{
+        position: relative;
+        display: block;
+        width: 250px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: rgb(158, 159, 159);
+    }
+    .divhtml span{
+        position: absolute;
+        left: 0px;
+        width: 230px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: #425d72;
+    }
+    .container-3 .divcss{
+        position: relative;
+        display: block;
+        width: 250px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: rgb(158, 159, 159);
+    }
+    .divcss span{
+        position: absolute;
+        left: 0px;
+        width: 212.5px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: #425d72;
+    }
+    .container-3 .divjc{
+        position: relative;
+        display: block;
+        width: 250px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: rgb(158, 159, 159);
+    }
+    .divjc span{
+        position: absolute;
+        left: 0px;
+        width: 212.5px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: #425d72;
+    }
+.container-3 .divcs{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(158, 159, 159);
+}
+.divcs span{
+    position: absolute;
+    left: 0px;
+    width: 212.5px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #425d72;
+}
+.container-3 .divfl{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(158, 159, 159);
+}
+.divfl span{
+    position: absolute;
+    left: 0px;
+    width: 225px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #425d72;
+}
+.container-3 .diven{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(158, 159, 159);
+}
+.diven span{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #425d72;
+}
+
+/* --------------------------------------------------- */
+#contact{
+    height: 100vh;
+}
+.container-4{
+    width: 100%;
+    padding: 20px;
+    /* display: inline-block; */
+    /* justify-content: center; */
+    
+
+}
+.container-4 div{
+    width: 100%;
+    height: 75vh;
+    border: 1px solid ;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-4 a{
+    /* width: 20px; */
+    /* margin: 20px;     */
+
+}
+/* ----------------------------------- */
+.container-5{
+    display: flex;
+    line-height: 50px;
+    justify-content: space-around;
+}
+/* ------------------------------ */
+
+footer {
+    height: fit-content;
+    background-color: #425d72;
+    border-radius: 5px;
+}
+iframe {
+    border-top-right-radius: 30%;
+    border-end-end-radius: 30%;
+}
+.fotr {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+
+}
+.fotr h3{
+    margin: 50px;
+}
+.fotr a{
+    color: black;
+    text-decoration:none;
+    padding: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 426px ) {
+
+   /* .div-1 {
+    display: block;
+    padding: 25px;
+    grid-template-columns: auto;
+}
+   .div-1 img {
+    width: 100%;
+/* } */
+.container-1{
+    flex-wrap: wrap;
+    
+}
+
+/* .container-3{
+    display: grid;
+} */
+
+body{
+    display: grid;
+}
+
+
+  }
+@media only screen and (max-width: 7696px ) {
+    body{
+        display: grid;
+    }
+}
